@@ -1,3 +1,10 @@
-*.pyc
-*.pyo
-*.*~
+#python
+*.py[cod]
+
+#Packages
+*.egg
+*.egg-info
+
+#DBfile
+#*.db
+*~
