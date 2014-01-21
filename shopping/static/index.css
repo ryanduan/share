@@ -1,0 +1,26 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,button,textarea,p,blockquote,th,td{
+    color: #000;
+}
+body{
+    background-color: #555eee;
+    color: #000;
+}
+h2{
+    color: #000;
+}
+.footer{
+    background: #555eee;
+    height: 40px;
+    border: 0;
+}
+#mainnav a.cur{
+    background: #555eee;
+    border: 0;
+}
+#mainnav a{
+    border: 0;
+}
+.sectionContent h2{
+    color: #000;
+    border: 2px;
+}

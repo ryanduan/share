@@ -1,0 +1,232 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0 none;
+}
+caption, em, th {
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none outside none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+textarea {
+    overflow: auto;
+    resize: none;
+}
+.input_submit, .input_reset, .input_btn, [type="submit"], [type="reset"], [type="button"], button {
+    border: 0 none;
+    cursor: pointer;
+    text-align: center;
+}
+li:focus, a:focus, input:focus, textarea:focus {
+    outline: medium none;
+}
+a img {
+    vertical-align: middle;
+}
+body {
+    color: #505050;
+    font: 12px/1.5 arial;
+    text-align: center;
+}
+a:link {
+    color: #666666;
+    text-decoration: none;
+}
+a:visited {
+    color: #666666;
+}
+a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+a:active {
+    color: #666666;
+}
+.clear {
+}
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.header, .body, .footer {
+    text-align: left;
+}
+.inner {
+    margin: 0 auto;
+    width: 800px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.body {
+    bottom: 58px;
+    left: 0;
+    min-width: 1258px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.footer {
+    background: none repeat scroll 0 0 #3CB3E0;
+    border-top: 1px solid #4BAACE;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 58px;
+    left: 0;
+    line-height: 58px;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+#logo {
+    background: url("../img/logoFooter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 34px;
+    margin: 12px 15px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 110px;
+}
+#mainnav {
+    float: right;
+}
+#mainnav li {
+    float: left;
+}
+#mainnav a {
+    border-left: 1px solid #4BAACE;
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+}
+#mainnav a:hover, #mainnav a.cur {
+    background: none repeat scroll 0 0 #2F9AC2;
+}
+.section {
+    position: relative;
+}
+.section .bgimg {
+    position: relative;
+    vertical-align: middle;
+    z-index: 0;
+}
+.section .frame {
+    background: url("../img/bg_frame.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.section .sectionContent {
+    bottom: 0;
+    left: 50%;
+    margin-left: -629px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 1258px;
+    z-index: 2;
+}
+.section .sectionContent .intro {
+    bottom: 0;
+    left: 25px;
+    position: absolute;
+    top: 0;
+    width: 310px;
+}
+.section .sectionContent .intro h2, .section .sectionContent .intro .txt {
+    font-size: 0;
+}
+.section .sectionContent .list {
+    height: 648px;
+    margin-top: -312px;
+    overflow: hidden;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    width: 850px;
+}
+.section .sectionContent .list:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.section .sectionContent .list li {
+    color: #FFFFFF;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    width: 150px;
+}
+.section .sectionContent .list li p {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.section .sectionContent .list li .img {
+    border: 3px solid #FFFFFF;
+    border-radius: 100px 100px 100px 100px;
+    display: block;
+    height: 144px;
+    margin-bottom: 6px;
+    width: 144px;
+}
+.section .sectionContent .list li img {
+    border-radius: 100px 100px 100px 100px;
+}
+.section .sectionContent .list li .userName a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+.section .sectionContent .list li .icoPlay {
+    background: url("../img/btnPlay34.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: none;
+    font-size: 0;
+    height: 34px;
+    left: 58px;
+    position: absolute;
+    top: 58px;
+    width: 34px;
+}
+.section .sectionContent .list li:hover .icoPlay {
+    display: block;
+}
+#index h2, #index .txt {
+    font-size: 0;
+}
