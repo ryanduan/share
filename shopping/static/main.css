@@ -91,14 +91,14 @@ a:active {
     z-index: 1;
 }
 .footer {
-    background: none repeat scroll 0 0 #3CB3E0;
-    border-top: 1px solid #4BAACE;
+    background: none repeat scroll 0 0 #E1DCB8;
+    border-top: 0;
     bottom: 0;
     color: #FFFFFF;
-    font-size: 14px;
-    height: 58px;
+    font-size: 6px;
+    height: 20px;
     left: 0;
-    line-height: 58px;
+    line-height: 20px;
     position: fixed;
     right: 0;
     width: 100%;
@@ -120,7 +120,7 @@ a:active {
     float: left;
 }
 #mainnav a {
-    border-left: 1px solid #4BAACE;
+    border-left: 0 solid #4BAACE;
     color: #FFFFFF;
     float: left;
     text-align: center;
@@ -128,7 +128,8 @@ a:active {
     width: 120px;
 }
 #mainnav a:hover, #mainnav a.cur {
-    background: none repeat scroll 0 0 #2F9AC2;
+    background: none repeat scroll 0 0 #E1DCB8;
+    color: blue;
 }
 .section {
     position: relative;
