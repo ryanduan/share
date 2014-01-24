@@ -133,21 +133,9 @@ a:active {
 }
 .section {
     position: relative;
+    border: 1px solid #E1DCB8;
 }
-.section .bgimg {
-    position: relative;
-    vertical-align: middle;
-    z-index: 0;
-}
-.section .frame {
-    background: url("../img/bg_frame.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-}
+
 .section .sectionContent {
     bottom: 0;
     left: 50%;

@@ -153,16 +153,22 @@ function navSelect(e){
 function setLayout(){
     var footerHeight = $('.footer').height(),
         windowHeight = $(window).height(),
-        windowWidth = $(window).width(),
-        imgHeight = windowWidth * 790 / 1600;
+        windowWidth = $(window).width();
+        //imgHeight = windowWidth * 790 / 1600;
+        //alert(imgHeight);
+    //alert(windowHeight);
+    //alert(footerHeight);
 
     sectionHeight = windowHeight - footerHeight;
+    //alert(sectionHeight);
 
-    if (imgHeight < sectionHeight) {
-        imgHeight = sectionHeight;
-        $('.section .bgimg').height(imgHeight);
-    }
+    //if (imgHeight < sectionHeight) {
+    //    imgHeight = sectionHeight;
+    //    $('.section .bgimg').height(imgHeight);
+    //}
 
     scrollY = scrollNum * sectionHeight;
+    //alert(scrollNum);
+    //alert(scrollY);
     $('.section').height(sectionHeight);
 }
